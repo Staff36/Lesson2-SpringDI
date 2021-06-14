@@ -4,10 +4,8 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import ru.tronin.DAO.ProductDAOImpl;
-import ru.tronin.DAO.iDAO;
 import ru.tronin.Entities.Product;
 
 import java.util.List;
@@ -45,7 +43,10 @@ public class ProductRepository {
     }
 
     public String getAverageCoastOfProducts(){
-        return "Average cost of all products is: " + (float) productDao.getAll().stream().mapToDouble(Product::getCost).average().orElse(Double.NaN);
+        return "Average cost of all products is: " + (float) productDao.getAll().stream()
+                .mapToDouble(Product::getCost)
+                .average()
+                .orElse(Double.NaN);
     }
 
 }

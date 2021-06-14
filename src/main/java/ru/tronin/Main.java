@@ -1,6 +1,5 @@
 package ru.tronin;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.tronin.Controllers.ConsoleController;
 

@@ -4,7 +4,6 @@ import lombok.AccessLevel;
 import lombok.Data;
 import lombok.experimental.FieldDefaults;
 import org.springframework.stereotype.Component;
-
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;

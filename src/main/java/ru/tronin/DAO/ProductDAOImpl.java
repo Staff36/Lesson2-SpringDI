@@ -4,14 +4,14 @@ package ru.tronin.DAO;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import ru.tronin.Entities.Product;
 import ru.tronin.Entities.ProductList;
 import javax.annotation.PostConstruct;
 import java.util.Collections;
 import java.util.List;
 
-@Component
+@Repository
 @FieldDefaults(level = AccessLevel.PRIVATE)
 
 public class ProductDAOImpl implements iDAO<Product, Integer>{

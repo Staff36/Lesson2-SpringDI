@@ -1,4 +1,4 @@
-package ru.tronin.Controllers;
+package ru.tronin.Service;
 
 import lombok.AccessLevel;
 import lombok.Data;

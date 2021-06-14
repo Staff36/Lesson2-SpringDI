@@ -5,6 +5,7 @@ import lombok.experimental.FieldDefaults;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.tronin.Entities.Product;
+import ru.tronin.Service.ProductRepository;
 
 import java.util.List;
 import java.util.Scanner;

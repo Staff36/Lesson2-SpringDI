@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import ru.tronin.Entities.Product;
 import ru.tronin.Entities.ProductList;
-
 import javax.annotation.PostConstruct;
 import java.util.Collections;
 import java.util.List;
